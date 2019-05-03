@@ -3,7 +3,7 @@ module.exports = {
   port: 8000,
   dest: './docs',
   head: [
-    ['script', { src: 'http://tajs.qq.com/stats?sId=66403914', charset: 'UTF-8' }]
+    ['script', { src: 'https://tajs.qq.com/stats?sId=66403914', charset: 'UTF-8' }]
   ],
   title: '洋子的自留地',
   description: '互联网的搬运工',
