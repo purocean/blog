@@ -1,7 +1,8 @@
 {
   "scripts": {
     "dev": "vuepress dev .",
-    "dist": "vuepress build ."
+    "dist": "vuepress build .",
+    "deploy": "vuepress build . && git add . && git commit -m deploy && git push"
   },
   "devDependencies": {
     "vuepress": "^0.14.11"
