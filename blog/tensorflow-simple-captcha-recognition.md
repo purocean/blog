@@ -2,7 +2,7 @@
 
 公司有一个业务需要抓取某网站数据，登录需要识别验证码，类似下面这种，这应该是很多网站使用的验证码类型。
 
-![](https://user-gold-cdn.xitu.io/2018/5/5/1632de3bc3994cd7?w=68&h=23&f=png&s=3953)
+![](./FILES/tensorflow-simple-captcha-recognition.md/7504883b.png)
 
 首先由于验证码比较简单，图像不复杂，而且全部是数字。于是试着采用传统方式，按照网上教程自己简单改了一个，使用 PHP 识别。大概流程就是切割二值化去噪等预处理，然后用字符串数组形式保存起来，识别传来的图片同样预处理后比较字符串的相似度，选出一个相识度最高的分类。识别率不是很理想（验证码比较简单，应该能优化得更好），隐约记得只能超过60%。
 
@@ -35,12 +35,12 @@ TensorFlow 是谷歌出的一款机器学习框架。看名字，TensorFlow 就�
 ## 抓取验证码
 这个简单，随便什么方式，循环下载一大堆，这里不再赘述。我这里下载了 750 张验证码，用 500 张做训练，剩下 250 张验证模型效果。
 
-![](https://user-gold-cdn.xitu.io/2018/5/5/1632de3bc3ae6e43?w=703&h=254&f=png&s=61569)
+![](./FILES/tensorflow-simple-captcha-recognition.md/b0e70a48.png)
 
 ## 给验证码打标签
 这里的验证码有750张之巨，要是手工给每个验证码打标签，那一定累尿了。这时候就可以使用人工打码服务，用廉价劳动力帮我们做这件事。人工打码后把识别结果保存下来。这里的代码就不提供了，看你用哪家的验证码服务，相信聪明的你一定能解决 :)
 
-![](https://user-gold-cdn.xitu.io/2018/5/5/1632de3bc3b2101f?w=594&h=247&f=png&s=46668)
+![](./FILES/tensorflow-simple-captcha-recognition.md/6bf246e3.png)
 
 ## 图片预处理
 1. **图片信息：** 此验证码是 68x23，JPG格式
@@ -98,7 +98,7 @@ def py(prefix, code):
 ```
 经过上面两步，我们在就获得了训练和测试用的数据和标签数据，呐，就像这样
 
-![](https://user-gold-cdn.xitu.io/2018/5/5/1632de3bc458f072?w=649&h=659&f=png&s=157877)
+![](./FILES/tensorflow-simple-captcha-recognition.md/1038f9db.png)
 
 ## 构建模型训练
 数据准备好啦，到了要搭建“管道”的时候了。
@@ -175,7 +175,7 @@ accuracy = tf.reduce_mean(tf.cast(correct_prediction, "float"))
 print(sess.run(accuracy, feed_dict={x: test_images.data, y_: test_labels.data}))
 ```
 我们模型输出是一个数组，里面存着每个分类的概率，所以我们要拿出概率最大的分类和测试标签比较。看在这 250 条测试数据里面，正确率是多少。当然这些也是定义完操作步骤，交给会话来运行处理的。
-![](https://user-gold-cdn.xitu.io/2018/5/5/1632de3bc48d5f71?w=546&h=287&f=png&s=79827)
+![](./FILES/tensorflow-simple-captcha-recognition.md/fc3ad258.png)
 
 ## 提取模型使用
 在上面我们已经把模型训练好了，而且效果还不错哦，近 99% 的正确率，或许比人工打码还高一些呢（获取测试数据时候常常返回有错误的值）。但是问题来了，我现在要把这个模型用于生产怎么办，总不可能每次都训练一次吧。在这里，我们就要使用到 TensorFlow 的模型保存和载入功能了。
@@ -197,11 +197,11 @@ sess.close()
 saver.restore(sess, "model/model")
 ```
 当然你还是需要定义好模型，才能恢复。我的理解是这里模型保存的是训练过程中各个变量的值，权重偏置什么的，所以结构架子还是要事先搭好才行。
-![](https://user-gold-cdn.xitu.io/2018/5/5/1632de3bc4894867?w=722&h=104&f=png&s=24763)
+![](./FILES/tensorflow-simple-captcha-recognition.md/87df71be.png)
 
 ## 最后
 这里只是展示了使用 TensorFlow 识别简单的验证码，效果还不错，上机器学习应该也不算是杀鸡用牛刀。毕竟模型无脑，节省很多时间。如果需要识别更加扭曲，更加变态的验证码，或许需要上卷积神经网络之类，图片结构和颜色信息都不能丢掉了。另一方面，做网站安全这块，纯粹的图形验证码恐怕不能作为判断是不是机器人的依据。对抗到最后，就变成这样的变态验证码哈哈哈。
-![](https://user-gold-cdn.xitu.io/2018/5/5/1632de3bdc9bcced?w=600&h=414&f=gif&s=714024)
+![](./FILES/tensorflow-simple-captcha-recognition.md/b80859d4.gif)
 
 ## 相关链接
 1. <https://github.com/purocean/tensorflow-simple-captcha>
