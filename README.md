@@ -16,3 +16,5 @@ footer: blog.yangzi.ml
 ## 文章列表
 
 1. [使用 TensorFlow 识别简单图像验证码](./blog/tensorflow-simple-captcha-recognition.md)
+1. [怎样把 Markdown 中的外链图片转换为本地图片](./blog/how-to-localize-picture-in-markdown.md)
+1. [IntelliJ IDEA Community 社区版配置 Web 开发环境（Gradle + Tomcat）](./blog/idea-community-web-gradle-tomcat.md)
