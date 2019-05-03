@@ -11,5 +11,8 @@ module.exports = {
     repo: 'purocean/blog',
     lastUpdated: 'Last Updated',
     sidebar: 'auto',
+  },
+  markdown: {
+    lineNumbers: true
   }
 }

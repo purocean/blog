@@ -21,7 +21,7 @@ TensorFlow 是谷歌出的一款机器学习框架。看名字，TensorFlow 就�
 
 更多的入门概念可以查看这个 [keras新手指南 » 一些基本概念](https://keras-cn.readthedocs.io/en/latest/for_beginners/concepts/)
 
-## 为什么使用 TensorFlow
+## 为什么使用 TensorFlow 
 没别的什么原因，只是因为谷歌大名，也没想更多。先撸起袖子干起来。如果为了快速成型，我建议可以看一下 *Keras*，号称为人类设计的机器学习框架，也就是用户体验友好，提供好几个机器学习框架更高层的接口。
 
 ## 大体流程
