@@ -27,3 +27,4 @@ footer: blog.yangzi.ml
 1. [Windows 下 Sublime Text 3 使用 Xdebug （配合Xdebug helper 插件）.md](./blog/Windows%20%E4%B8%8B%20Sublime%20Text%203%20%E4%BD%BF%E7%94%A8%20Xdebug%20%EF%BC%88%E9%85%8D%E5%90%88Xdebug%20helper%20%E6%8F%92%E4%BB%B6%EF%BC%89.md)
 1. [我使用的 Sublime Text 插件.md](./blog/%E6%88%91%E4%BD%BF%E7%94%A8%E7%9A%84%20Sublime%20Text%20%E6%8F%92%E4%BB%B6.md)
 
+<Vssue title="洋子的自留地" />
