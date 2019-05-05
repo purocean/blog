@@ -50,7 +50,7 @@ export default ({
 }) => {
   try {
     // 生成静态页时在node中执行，没有document对象
-    document && integrateGitment(router)
+    // document && integrateGitment(router)
   } catch (error) {
     console.warn(' node 环境不集成评论')
   }
