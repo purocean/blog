@@ -1,10 +1,10 @@
 const integrateGitment = router => {
   const linkGitment = document.createElement('link')
-  linkGitment.href = 'https://imsun.github.io/gitment/style/default.css'
+  linkGitment.href = '/gitment.css'
   linkGitment.rel = 'stylesheet'
   const scriptGitment = document.createElement('script')
   document.body.appendChild(linkGitment)
-  scriptGitment.src = 'https://imsun.github.io/gitment/dist/gitment.browser.js'
+  scriptGitment.src = '/gitment.browser.js'
   document.body.appendChild(scriptGitment)
 
   const renderGitment = () => {
@@ -52,6 +52,6 @@ export default ({
     // 生成静态页时在node中执行，没有document对象
     document && integrateGitment(router)
   } catch (error) {
-    console.warn('node 环境不集成评论')
+    console.warn(' node 环境不集成评论')
   }
 }
