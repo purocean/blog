@@ -38,6 +38,4 @@ If you have any questions about this Privacy Policy, please contact us:
 
 + By email: purocean@outlook.com
 
-<script>
-  setTimeout('document.getElementById("appname").innerText = location.search.replace("?", "")', 1000)
-</script>
+<iframe style="display: none" onload="document.getElementById('appname').innerText = location.search.replace('?', '')" />
