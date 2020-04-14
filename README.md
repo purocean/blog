@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /hero.jpg
-footer: blog.yangzi.ml
+footer: 洋子的自留地
 ---
 
 ## 文章列表
