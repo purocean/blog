@@ -6,6 +6,7 @@ footer: 洋子的自留地
 
 ## 文章列表
 
+1. <a href="./weibo_backup/微博.html" target="_blank">微博备份</a>
 1. [使用 TensorFlow 识别简单图像验证码](./blog/tensorflow-simple-captcha-recognition.md)
 1. [怎样把 Markdown 中的外链图片转换为本地图片](./blog/how-to-localize-picture-in-markdown.md)
 1. [Git worktree 的使用.md](./blog/Git%20worktree%20%E7%9A%84%E4%BD%BF%E7%94%A8.md)
