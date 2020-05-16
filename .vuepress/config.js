@@ -2,7 +2,7 @@ module.exports = {
   host: 'localhost',
   port: 8000,
   dest: './docs',
-  base: '/blog/',
+  base: '/',
   head: [
     ['script', { src: 'https://tajs.qq.com/stats?sId=66403914', charset: 'UTF-8' }]
   ],
@@ -26,7 +26,7 @@ module.exports = {
       contact: [
         {
           type: 'github',
-          link: 'https://github.com/purocean/blog',
+          link: 'https://github.com/purocean/purocean.github.io',
         },
       ],
     },
@@ -58,9 +58,9 @@ module.exports = {
       clientId: '2e4274abbb0604471a05',
       clientSecret: 'ede53d6baee3682a98ed79d2887450ad34806ede',
     },
-    // feed: {
-    //   canonical_base: 'https://purocean.github.io/blog/',
-    // }
+    feed: {
+      canonical_base: 'https://purocean.github.io',
+    }
   },
   markdown: {
     lineNumbers: true
