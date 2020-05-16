@@ -2,7 +2,7 @@
   "scripts": {
     "dev": "vuepress dev .",
     "dist": "vuepress build .",
-    "deploy": "vuepress build . && git add . && git commit -m deploy && git push"
+    "deploy": "sh deploy.sh && git add . && git commit -m update && git push"
   },
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.5.0",
