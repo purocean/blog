@@ -58,9 +58,9 @@ module.exports = {
       clientId: '2e4274abbb0604471a05',
       clientSecret: 'ede53d6baee3682a98ed79d2887450ad34806ede',
     },
-    feed: {
-      canonical_base: 'https://purocean.github.io/blog/',
-    }
+    // feed: {
+    //   canonical_base: 'https://purocean.github.io/blog/',
+    // }
   },
   markdown: {
     lineNumbers: true
