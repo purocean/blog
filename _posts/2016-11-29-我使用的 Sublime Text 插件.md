@@ -1,4 +1,10 @@
-# 我使用的 Sublime Text 插件
+---
+title: 我使用的 Sublime Text 插件
+date: 2016-11-29
+author: 洋子
+tags:
+  - 编辑器
+---
 
 > 后记：很久不用 Sublime Text 编辑器了。现在写前端和 PHP 已经切换到 VSCode，JAVA 和 Kotlin 切换到 IntelliJ IDEA
 

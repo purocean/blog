@@ -1,4 +1,10 @@
-# IntelliJ IDEA Community 社区版配置 Web 开发环境（Gradle + Tomcat）
+---
+title: IntelliJ IDEA Community 社区版配置 Web 开发环境（Gradle + Tomcat）
+date: 2016-09-18
+author: 洋子
+tags:
+  - 编辑器
+---
 
 IntelliJ IDEA 是很好的 IDE， 但是免费的社区版不直接支持开发 Web 项目。所以需要自己配置。
 网上大多是教程都是用 Maven 和 jetty 来配置。我刚学 JAVA。因此直接从 Gradle 上手配置了。
@@ -93,7 +99,7 @@ tomcatRunWar.contextPath = 'teats/'
 >File > Settings > Build, Execution & Deployment > Compiler > Compiler
 >and de-select Configure on demand
 >The above still uses data but is faster, I was able to load images and maps. However, in addition, if >you want to be completely offline, you need to do the following:
- >File -> Settings ->Build, Execution,Deployment -> Build Tools -> Gradle -> 
+ >File -> Settings ->Build, Execution,Deployment -> Build Tools -> Gradle ->
 >check Offline work
 
 试试有没有配置成功

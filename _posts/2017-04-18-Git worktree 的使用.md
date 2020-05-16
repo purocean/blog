@@ -1,9 +1,10 @@
 ---
+title: Git worktree 的使用
+date: 2017-04-18
+author: 洋子
 tags:
   - Git
 ---
-
-# Git worktree 的使用
 
 假设这样一个场景，你做完了一个功能，正在跑漫长的测试。
 喝茶，上厕所，回来一看，这测试竟然还在跑。

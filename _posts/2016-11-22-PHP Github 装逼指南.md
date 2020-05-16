@@ -1,4 +1,10 @@
-# PHP Github 装逼指南
+---
+title: PHP Github 装逼指南
+date: 2016-11-22
+author: 洋子
+tags:
+  - PHP
+---
 
 看别人开源项目下面总是一堆徽章很是羡慕，网上文章大多是 Javascript 项目相关的。这楼里介绍一下 PHP 相关徽章。
 

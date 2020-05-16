@@ -1,10 +1,12 @@
 ---
+title: 使用 TensorFlow 识别简单图像验证码
+date: 2017-12-03
+author: 洋子
+top: 100
 tags:
   - 机器学习
   - TensorFlow
 ---
-
-# 使用 TensorFlow 识别简单图像验证码
 
 公司有一个业务需要抓取某网站数据，登录需要识别验证码，类似下面这种，这应该是很多网站使用的验证码类型。
 
@@ -213,5 +215,3 @@ saver.restore(sess, "model/model")
 1. <https://github.com/purocean/tensorflow-simple-captcha>
 2. <https://keras-cn.readthedocs.io/en/latest/for_beginners/concepts/>
 3. <http://wiki.jikexueyuan.com/project/tensorflow-zh/>
-
-<Vssue title="使用 TensorFlow 识别简单图像验证码" />

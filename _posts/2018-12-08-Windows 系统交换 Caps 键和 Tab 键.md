@@ -1,4 +1,10 @@
-# Windows 系统交换 Caps 键 和 Tab 键
+---
+title: Windows 系统交换 Caps 键 和 Tab 键
+date: 2018-12-08
+author: 洋子
+tags:
+  - Windows
+---
 
 ## 缘起
 最近入手了一个小电脑，对于一个程序员来说tab键不方便按可要老命。
@@ -11,7 +17,7 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
- 
+
 "Scancode Map"=hex:00,00,00,00,00,00,00,00,03,00,00,00,3a,00,0F,00,0F,00,3a,00,00,00,00,00
 ```
 
@@ -20,7 +26,7 @@ Windows Registry Editor Version 5.00
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
- 
+
 "Scancode Map"=-
 
 ```

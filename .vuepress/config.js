@@ -8,15 +8,56 @@ module.exports = {
   ],
   title: '洋子的自留地',
   description: '互联网的搬运工',
+  theme: '@vuepress/blog',
   themeConfig: {
-    repo: 'purocean/blog',
-    lastUpdated: 'Last Updated',
-    sidebar: 'auto',
+    dateFormat: 'YYYY-MM-DD',
     nav: [
       { text: '首页', link: '/' },
       // { text: '分类', link: '/category/' },
-      // { text: '标签', link: '/tag/' },
+      { text: '标签', link: '/tag/' },
     ],
+    footer: {
+      copyright: [
+        {
+          text: 'Powered by VuePress | Copyright © 2019-present',
+          link: '',
+        },
+      ],
+      contact: [
+        {
+          type: 'github',
+          link: 'https://github.com/purocean/blog',
+        },
+      ],
+    },
+    directories: [
+      {
+        id: 'post',
+        dirname: '_posts',
+        path: '/',
+        itemPermalink: '/:slug'
+      },
+    ],
+    globalPagination: {
+      sorter: (prev, next) => {
+        const dayjs = require('dayjs')
+        const prevTime = dayjs(prev.frontmatter.date)
+        const nextTime = dayjs(next.frontmatter.date)
+        const prevTop = (prev.frontmatter.top || 0) * 10000000000000
+        const nextTop = (next.frontmatter.top || 0) * 10000000000000
+        return (prevTop || prevTime) - (nextTop || nextTime) > 0 ? -1 : 1
+      },
+      prevText: '上一页', // Text for previous links.
+      nextText: '下一页', // Text for next links.
+      lengthPerPage: 5, // Maximum number of posts per page.
+    },
+    comment: {
+      service: 'vssue',
+      owner: 'purocean',
+      repo: 'blog',
+      clientId: '2e4274abbb0604471a05',
+      clientSecret: 'ede53d6baee3682a98ed79d2887450ad34806ede',
+    }
   },
   markdown: {
     lineNumbers: true
@@ -24,18 +65,6 @@ module.exports = {
   plugins: [
     '@vuepress/back-to-top',
     '@vuepress/medium-zoom',
-    '@vuepress/pagination',
     '@vuepress/active-header-links',
-    // ['@vuepress/plugin-blog', {postsDir: 'blog'}],
-    ['@vssue/vuepress-plugin-vssue', {
-      // 设置 `platform` 而不是 `api`
-      platform: 'github',
-
-      // 其他的 Vssue 配置
-      owner: 'purocean',
-      repo: 'blog',
-      clientId: '2e4274abbb0604471a05',
-      clientSecret: 'ede53d6baee3682a98ed79d2887450ad34806ede',
-    }],
   ],
 }
