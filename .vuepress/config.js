@@ -69,5 +69,6 @@ module.exports = {
     '@vuepress/back-to-top',
     '@vuepress/medium-zoom',
     '@vuepress/active-header-links',
+    '@markspec/vuepress-plugin-footnote',
   ],
 }

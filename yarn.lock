@@ -880,6 +880,18 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
+"@gerhobbelt/markdown-it-footnote@^3.0.2-4":
+  version "3.0.2-4"
+  resolved "https://registry.npm.taobao.org/@gerhobbelt/markdown-it-footnote/download/@gerhobbelt/markdown-it-footnote-3.0.2-4.tgz#471780444920151934b98c57a2dc8ef417642662"
+  integrity sha1-RxeAREkgFRk0uYxXotyO9BdkJmI=
+
+"@markspec/vuepress-plugin-footnote@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.npm.taobao.org/@markspec/vuepress-plugin-footnote/download/@markspec/vuepress-plugin-footnote-1.1.2.tgz#a2c77f6546ecd38a32c8e95a5f1b2dfe5bc3eaa5"
+  integrity sha1-osd/ZUbs04oyyOlaXxst/lvD6qU=
+  dependencies:
+    "@gerhobbelt/markdown-it-footnote" "^3.0.2-4"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.npm.taobao.org/@mrmlnc/readdir-enhanced/download/@mrmlnc/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
