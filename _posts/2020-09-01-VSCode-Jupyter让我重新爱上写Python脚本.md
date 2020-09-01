@@ -1,5 +1,5 @@
 ---
-title: VScode + Jupyter 让我重新爱上写 Python 脚本
+title: VSCode + Jupyter 让我重新爱上写 Python 脚本
 date: 2020-09-01
 author: 洋子
 tags:
