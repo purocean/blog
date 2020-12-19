@@ -85,5 +85,5 @@ test data
 
 这样我们就实现了使用 generator 来模拟 async/await。
 
-参考：
+## 参考
 1. https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Generator
