@@ -85,5 +85,49 @@ test data
 
 这样我们就实现了使用 generator 来模拟 async/await。
 
+## 进一步
+这里我们还是传入了一个 call，比较丑陋，而且只能执行只有一个 yield 的 generator。所以稍微改造一下，引入一个 run 方法，使用递归来实现自动往下走，代码如下：
+
+```js
+const fetchData = (arg) => new Promise(resolve => {
+    setTimeout(() => {
+        resolve('test data ' + arg)
+    }, 3000)
+})
+
+function *test() {
+    console.log('0')
+    let res = yield fetchData('1')
+    console.log('1', res)
+    res = yield fetchData(res)
+    console.log('2', res)
+    res = yield fetchData(res)
+    console.log('3', res)
+    res = yield fetchData(res)
+    console.log('4', res)
+}
+
+const run = g => {
+    const next = val => {
+        const res = g.next(val)
+        if(res.done) return res.value
+        res.value.then(next)
+    }
+
+    next()
+}
+
+run(test())
+```
+
+执行结果
+```
+0
+1 test data 1
+2 test data test data 1
+3 test data test data test data 1
+4 test data test data test data test data 1
+```
+
 ## 参考
 1. https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Generator
