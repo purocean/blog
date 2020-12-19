@@ -12,12 +12,15 @@ jobs:
       - uses: actions/checkout@v2
       - name: build
         run: yarn && yarn run dist
-      - name: Pushes to another repository
-        uses: cpina/github-action-push-to-another-repository@master
-        env:
-          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-        with:
-          source-directory: 'dist'
-          destination-github-username: 'purocean'
-          destination-repository-name: 'urocean.github.io'
-          user-email: purocean@gmail.com
+      - name: deploy
+        run: |
+          cd dist
+
+          # 如果是发布到自定义域名
+          # echo 'www.example.com' > CNAME
+
+          git init
+          git add -A
+          git commit -m 'deploy'
+
+          git push -f https://purocean:${{ secrets.API_TOKEN_GITHUB }}@github.com/purocean/purocean.github.io.git master
