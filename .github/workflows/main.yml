@@ -13,8 +13,6 @@ jobs:
       - name: build
         run: yarn && yarn run dist
       - name: deploy
-        env:
-          GITHUB_TOKEN: ${{ secrets.API_TOKEN_GITHUB }}
         run: |
           cd dist
 
@@ -27,4 +25,4 @@ jobs:
           git add -A
           git commit -m 'deploy'
 
-          git push -f https://purocean:${GITHUB_TOKEN}@github.com/purocean/purocean.github.io.git master
+          git push -f https://purocean:${{ secrets.GITHUB_TOKEN }}@github.com/purocean/purocean.github.io.git master
