@@ -25,4 +25,4 @@ jobs:
           git add -A
           git commit -m 'deploy'
 
-          git push -f https://purocean:${{ secrets.GITHUB_TOKEN }}@github.com/purocean/purocean.github.io.git master
+          git push -f https://purocean:${{ secrets.GIT_ACCESSTOKEN }}@github.com/purocean/purocean.github.io.git master
