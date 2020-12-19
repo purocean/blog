@@ -40,7 +40,7 @@ g.next()
 ```
 
 最终代码，加上日志打印，观察一下执行顺序：
-```
+```js
 const fetchData = () => new Promise(resolve => {
     setTimeout(() => {
         resolve('test data')
