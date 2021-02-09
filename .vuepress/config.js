@@ -57,7 +57,7 @@ module.exports = {
       repo: 'blog',
       clientId: '2e4274abbb0604471a05',
       clientSecret: 'ede53d6baee3682a98ed79d2887450ad34806ede',
-      proxy: 'http://127.0.0.1:8080/proxy/https://github.com/login/oauth/access_token'
+      proxy: 'http://127.0.0.1:8080/proxy/login/oauth/access_token'
     },
     feed: {
       canonical_base: 'https://purocean.github.io',
