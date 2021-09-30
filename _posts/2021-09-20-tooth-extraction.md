@@ -18,7 +18,7 @@ tags:
 
 先上一个拔除前的图片。
 
-<img src="FILES/2021-09-20-tooth-extraction.md/d1d88a01.jpeg" width="200">
+![](./FILES/2021-09-20-tooth-extraction.md/d1d88a01.jpeg =200x)
 
 强烈推荐拔牙前购买一个可以深入口腔看的采耳棒，普通最便宜的就可以。因为镜子实在不方便（我拔牙后开口受限，根本不能张嘴用镜子看）。
 
@@ -72,7 +72,7 @@ tags:
 
 然后便是含着棉花，休息区咬着半个小时，这期间的疼痛感觉，类似牙龈发炎的疼痛，不是很疼。半小时后，找护士看了一下，吐掉棉花，就完事了。没有开消炎药，也没更多医嘱，就这样就结束了。
 
-<img src="FILES/2021-09-20-tooth-extraction.md/42330c3e.jpeg" width="200">
+![](./FILES/2021-09-20-tooth-extraction.md/42330c3e.jpeg =200x)
 
 ### 拔牙第一天
 

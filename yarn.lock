@@ -4218,6 +4218,13 @@ ignore@^4.0.3:
   resolved "https://registry.npm.taobao.org/ignore/download/ignore-4.0.6.tgz#750e3db5862087b4737ebac8207ffd1ef27b25fc"
   integrity sha1-dQ49tYYgh7RzfrrIIH/9HvJ7Jfw=
 
+image-size@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.nlark.com/image-size/download/image-size-1.0.0.tgz#58b31fe4743b1cec0a0ac26f5c914d3c5b2f0750"
+  integrity sha1-WLMf5HQ7HOwKCsJvXJFNPFsvB1A=
+  dependencies:
+    queue "6.0.2"
+
 immediate@^3.2.3:
   version "3.3.0"
   resolved "https://registry.npm.taobao.org/immediate/download/immediate-3.3.0.tgz#1aef225517836bcdf7f2a2de2600c79ff0269266"
@@ -5047,6 +5054,11 @@ markdown-it-anchor@^5.0.2:
   resolved "https://registry.npm.taobao.org/markdown-it-anchor/download/markdown-it-anchor-5.3.0.tgz#d549acd64856a8ecd1bea58365ef385effbac744"
   integrity sha1-1Ums1khWqOzRvqWDZe84Xv+6x0Q=
 
+markdown-it-attrs@^3.0.1:
+  version "3.0.3"
+  resolved "https://registry.npmmirror.com/markdown-it-attrs/download/markdown-it-attrs-3.0.3.tgz#92acdb16fe551cb056c5eb9848413443cafb5231"
+  integrity sha1-kqzbFv5VHLBWxeuYSEE0Q8r7UjE=
+
 markdown-it-chain@^1.3.0:
   version "1.3.0"
   resolved "https://registry.npm.taobao.org/markdown-it-chain/download/markdown-it-chain-1.3.0.tgz#ccf6fe86c10266bafb4e547380dfd7f277cc17bc"
@@ -5063,6 +5075,25 @@ markdown-it-emoji@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npm.taobao.org/markdown-it-emoji/download/markdown-it-emoji-1.4.0.tgz#9bee0e9a990a963ba96df6980c4fddb05dfb4dcc"
   integrity sha1-m+4OmpkKljupbfaYDE/dsF37Tcw=
+
+markdown-it-image-lazy-loading@^1.0.2:
+  version "1.1.0"
+  resolved "https://registry.nlark.com/markdown-it-image-lazy-loading/download/markdown-it-image-lazy-loading-1.1.0.tgz#8df2b76bd5ee7c40b029cd73a5f2a02d00e97390"
+  integrity sha1-jfK3a9XufECwKc1zpfKgLQDpc5A=
+  dependencies:
+    image-size "^1.0.0"
+
+markdown-it-image-loading@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npmmirror.com/markdown-it-image-loading/download/markdown-it-image-loading-1.0.2.tgz#7433a39085f5cf8c2ebabf782b2630aa80dc2b39"
+  integrity sha1-dDOjkIX1z4wuur94KyYwqoDcKzk=
+  dependencies:
+    markdown-it-attrs "^3.0.1"
+
+markdown-it-imsize@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.nlark.com/markdown-it-imsize/download/markdown-it-imsize-2.0.1.tgz#cca0427905d05338a247cb9ca9d968c5cddd5170"
+  integrity sha1-zKBCeQXQUziiR8ucqdloxc3dUXA=
 
 markdown-it-table-of-contents@^0.4.0:
   version "0.4.4"
@@ -6354,6 +6385,13 @@ querystringify@^2.1.1:
   version "2.2.0"
   resolved "https://registry.npm.taobao.org/querystringify/download/querystringify-2.2.0.tgz?cache=0&sync_timestamp=1597686721254&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fquerystringify%2Fdownload%2Fquerystringify-2.2.0.tgz#3345941b4153cb9d082d8eee4cda2016a9aef7f6"
   integrity sha1-M0WUG0FTy50ILY7uTNogFqmu9/Y=
+
+queue@6.0.2:
+  version "6.0.2"
+  resolved "https://registry.nlark.com/queue/download/queue-6.0.2.tgz#b91525283e2315c7553d2efa18d83e76432fed65"
+  integrity sha1-uRUlKD4jFcdVPS76GNg+dkMv7WU=
+  dependencies:
+    inherits "~2.0.3"
 
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5, randombytes@^2.1.0:
   version "2.1.0"
@@ -7946,6 +7984,15 @@ vuepress-plugin-feed@^0.1.8:
     lodash.trimstart "^4.5.1"
     remove-markdown "0.3.0"
     striptags "3.1.1"
+
+vuepress-plugin-image@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.npmmirror.com/vuepress-plugin-image/download/vuepress-plugin-image-1.0.4.tgz#8fbb49b41fcab4a3261f609ecb9fe71ecfc7df5b"
+  integrity sha1-j7tJtB/KtKMmH2Cey5/nHs/H31s=
+  dependencies:
+    markdown-it-image-lazy-loading "^1.0.2"
+    markdown-it-image-loading "^1.0.2"
+    markdown-it-imsize "^2.0.1"
 
 vuepress-plugin-mailchimp@^1.4.1:
   version "1.4.1"

@@ -71,5 +71,6 @@ module.exports = {
     '@vuepress/medium-zoom',
     '@vuepress/active-header-links',
     '@markspec/vuepress-plugin-footnote',
+    'vuepress-plugin-image'
   ],
 }
