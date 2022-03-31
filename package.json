@@ -10,6 +10,6 @@
     "@vuepress/plugin-medium-zoom": "^1.5.0",
     "@vuepress/theme-blog": "^2.2.0",
     "vuepress": "^1.5.0",
-    "vuepress-plugin-image": "^1.0.4"
+    "vuepress-plugin-img-lazy": "^1.0.4"
   }
 }
