@@ -24,7 +24,6 @@ tags:
     outline: 1px solid green;
     height: 100px;
     flex: 1 1 50%;
-    /* 也有效 */
     /* overflow: hidden; */
     min-width: 0;
 }
