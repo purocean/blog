@@ -188,8 +188,10 @@ Antd 以前是分别用两个表格来模拟表头固定的，现在的版本也
     text-align: center;
     display: inline-block;
     vertical-align: top;
-    border: 1px solid red;
+    outline: 1px solid green;
+    outline-offset: -1px;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 .detail {
