@@ -8247,10 +8247,10 @@ vuepress-plugin-feed@^0.1.8:
     remove-markdown "0.3.0"
     striptags "3.1.1"
 
-vuepress-plugin-html-applet@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-html-applet/-/vuepress-plugin-html-applet-0.0.2.tgz#aba966aebe8bee3ae74c2c4dca0e54e3d51a800c"
-  integrity sha512-jDTT35+xqD0TG4SeIyLB7JuKB6jSNX0Z4/F0mOJzUjOcwFKJAapT9bcnuvFUZ0h+MuifvptQ+6Svdj/iNjvobg==
+vuepress-plugin-html-applet@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-html-applet/-/vuepress-plugin-html-applet-0.0.3.tgz#1a5a574d82af3fe597876e4ea34d8c5b627212a4"
+  integrity sha512-Gu9a8d+SIT5HvgKyqAiiUPPHeAaplcA6f/1PrwcNlZhR825kxvvVGDSbhFGwtCkeR/o8NnM95Yv3TcjtjRk8BQ==
 
 vuepress-plugin-img-lazy@^1.0.4:
   version "1.0.4"

@@ -72,6 +72,6 @@ module.exports = {
     '@vuepress/active-header-links',
     '@markspec/vuepress-plugin-footnote',
     'img-lazy',
-    'html-applet',
+    ['html-applet', { useSrcdoc: false }],
   ],
 }

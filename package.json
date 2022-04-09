@@ -10,7 +10,7 @@
     "@vuepress/plugin-medium-zoom": "^1.9.7",
     "@vuepress/theme-blog": "^2.3.3",
     "vuepress": "^1.9.7",
-    "vuepress-plugin-html-applet": "^0.0.2",
+    "vuepress-plugin-html-applet": "^0.0.3",
     "vuepress-plugin-img-lazy": "^1.0.4"
   }
 }
