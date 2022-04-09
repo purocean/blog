@@ -190,7 +190,6 @@ Antd 以前是分别用两个表格来模拟表头固定的，现在的版本也
     vertical-align: top;
     border: 1px solid red;
     cursor: pointer;
-    margin-bottom: 1em;
 }
 
 .detail {
