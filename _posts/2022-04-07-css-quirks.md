@@ -182,45 +182,49 @@ Antd 以前是分别用两个表格来模拟表头固定的，现在的版本也
 ```html
 <!-- --applet-- -->
 <style>
-.xx {
+.btn {
     width: 50px;
     margin: 0 25px;
     text-align: center;
     display: inline-block;
     vertical-align: top;
+    border: 1px solid red;
+    cursor: pointer;
+    margin-bottom: 1em;
 }
 
 .detail {
     position: absolute;
-    padding-top: 100px;
-    width: 400px;
-    height: 300px;
+    padding-top: 20px;
+    left: 0;
+    right: 0;
+    height: 50px;
     text-align: center;
     background-color: red;
     visibility: hidden;
     transition: visibility 99999s linear;
 }
 
-.xx:hover + .detail {
+.btn:hover + .detail {
     transition: visibility .1s linear;
     visibility: visible;
 }
 
-.xx:hover + .detail ~ .detail {
+.btn:hover + .detail ~ .detail {
     display: none; /* 这句的作用是让动画过渡立马停止 */
 }
 </style>
 
-<div class="xx">按钮1</div>
+<div class="btn">按钮1</div>
 <div class="detail">详情1</div>
 
-<div class="xx">按钮2</div>
+<div class="btn">按钮2</div>
 <div class="detail" style="background: green">详情2</div>
 
-<div class="xx">按钮3</div>
+<div class="btn">按钮3</div>
 <div class="detail" style="background: #666">详情3</div>
 
-<div class="xx">按钮4</div>
+<div class="btn">按钮4</div>
 <div class="detail" style="background: #aaa">详情4</div>
 ```
 
@@ -234,9 +238,13 @@ Antd 以前是分别用两个表格来模拟表头固定的，现在的版本也
 <!-- --applet-- -->
 <style>
 div {
-    height: 100px;
-    width: 200px;
+    height: 50px;
+    width: 100px;
     display: inline-block;
+}
+
+.wrapper {
+    width: 100%;
 }
 
 .div1 {
