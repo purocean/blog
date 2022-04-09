@@ -22,7 +22,7 @@ tags:
 
 .b {
     outline: 1px solid green;
-    height: 100px;
+    height: 50px;
     flex: 1 1 50%;
     /* overflow: hidden; */
     min-width: 0;
@@ -30,7 +30,7 @@ tags:
 
 .c {
     outline: 1px solid red;
-    height: 100px;
+    height: 50px;
     flex: 1 1 50%;
 }
 
