@@ -17,11 +17,11 @@ tags:
 <style>
 .a {
     display: flex;
-    padding: 10px;
 }
 
 .b {
     outline: 1px solid green;
+    outline-offset: -1px;
     height: 50px;
     flex: 1 1 50%;
     /* overflow: hidden; */
@@ -30,6 +30,7 @@ tags:
 
 .c {
     outline: 1px solid red;
+    outline-offset: -1px;
     height: 50px;
     flex: 1 1 50%;
 }
