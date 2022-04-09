@@ -5,11 +5,12 @@
     "deploy": "sh deploy.sh && git add . && git commit -m update && git push"
   },
   "devDependencies": {
-    "@markspec/vuepress-plugin-footnote": "^1.1.2",
-    "@vuepress/plugin-back-to-top": "^1.5.0",
-    "@vuepress/plugin-medium-zoom": "^1.5.0",
-    "@vuepress/theme-blog": "^2.2.0",
-    "vuepress": "^1.5.0",
+    "@markspec/vuepress-plugin-footnote": "^1.1.3",
+    "@vuepress/plugin-back-to-top": "^1.9.7",
+    "@vuepress/plugin-medium-zoom": "^1.9.7",
+    "@vuepress/theme-blog": "^2.3.3",
+    "vuepress": "^1.9.7",
+    "vuepress-plugin-html-applet": "^0.0.2",
     "vuepress-plugin-img-lazy": "^1.0.4"
   }
 }

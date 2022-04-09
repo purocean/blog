@@ -64,13 +64,14 @@ module.exports = {
     }
   },
   markdown: {
-    lineNumbers: true
+    lineNumbers: true,
   },
   plugins: [
     '@vuepress/back-to-top',
     '@vuepress/medium-zoom',
     '@vuepress/active-header-links',
     '@markspec/vuepress-plugin-footnote',
-    'img-lazy'
+    'img-lazy',
+    'html-applet',
   ],
 }
