@@ -1,6 +1,6 @@
 ---
 title: TypeScript 类型体操-给 Lodash _.get 写参数类型
-date: 2022-12-14
+date: 2021-12-14
 author: 洋子
 tags:
   - 前端
