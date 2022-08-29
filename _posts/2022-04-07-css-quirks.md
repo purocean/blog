@@ -174,7 +174,7 @@ Antd 以前是分别用两个表格来模拟表头固定的，现在的版本也
 </div>
 ```
 
-父级元素应用样式 `transform` 即可
+父级元素应用样式 `transform` 或者 `filter` 即可
 
 参考：[CSS3 transform对普通元素的N多渲染影响](https://www.zhangxinxu.com/wordpress/2015/05/css3-transform-affect/)
 
