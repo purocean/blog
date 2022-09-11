@@ -6,7 +6,9 @@ tags:
   - iPhone
 ---
 
-<iframe src="//player.bilibili.com/player.html?aid=815414704&bvid=BV1xG4y1z7h3&cid=829106384&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%"></iframe>
+手机用了
+
+<iframe src="//player.bilibili.com/player.html?aid=815414704&bvid=BV1xG4y1z7h3&cid=829106384&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="500px"></iframe>
 
 ## 1. 拆机
 
