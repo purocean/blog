@@ -6,7 +6,7 @@ tags:
   - iPhone
 ---
 
-手机用了
+手机用了快三年，电池健康度下降到 76%，一天要两充，续航非常差。于是在淘宝上花了 33 块钱买了一个电芯，拆机换上。
 
 <iframe src="//player.bilibili.com/player.html?aid=815414704&bvid=BV1xG4y1z7h3&cid=829106384&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="500px"></iframe>
 
