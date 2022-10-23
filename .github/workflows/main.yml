@@ -12,6 +12,8 @@ jobs:
       - uses: actions/checkout@v2
       - name: build
         run: yarn && yarn run dist
+      - name: copy public
+        run: cp -r .vuepress/public/* dist/
       - name: deploy
         run: |
           cd dist
