@@ -7,13 +7,11 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env: 
-      NODE_OPTIONS: --openssl-legacy-provider
 
     steps:
       - uses: actions/checkout@v2
       - name: build
-        run: yarn && yarn run dist
+        run: export NODE_OPTIONS=--openssl-legacy-provider && yarn && yarn run dist
       - name: copy public
         run: cp -r .vuepress/public/* dist/
       - name: deploy
