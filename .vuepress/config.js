@@ -65,6 +65,10 @@ module.exports = {
   },
   markdown: {
     lineNumbers: true,
+    extendMarkdown: md => {
+      md.options.breaks = true
+      md.options.linkify = true
+    }
   },
   plugins: [
     '@vuepress/back-to-top',
