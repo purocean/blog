@@ -207,6 +207,9 @@ console.log(`replace ${path}`, js.length, replaced.length);
 
 这里的思路就是用 express 启一个服务器，然后调用暴露出来的接口即可。代码我放在了 [Github](https://github.com/purocean/expose-github-copilot-http-api)。
 
+效果如下：
+![Img](./FILES/2023-11-19-hack-github-copilot.md/img-20231119180113.png)
+
 ## 对接 Yank Note
 
 把下面的内容，写成一个js文件，放置到 Yank Note js 插件目录，然后重启 Yank Note 即可。代码我也放在了上面的 [Github](https://github.com/purocean/expose-github-copilot-http-api) 仓库中, 请参考仓库中的文件：`yn-github-copilot.js`。
