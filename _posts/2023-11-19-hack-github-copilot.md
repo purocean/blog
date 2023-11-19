@@ -1,5 +1,5 @@
 ---
-title: 为 Github Copilot 制作 Http 接口
+title: 为 Github Copilot 制作 HTTP 接口
 date: 2023-11-19
 author: 洋子
 tags:
