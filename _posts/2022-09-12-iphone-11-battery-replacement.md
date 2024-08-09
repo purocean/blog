@@ -26,7 +26,7 @@ tags:
 
 ## 2. 处理电池
 
-细节参考 https://b23.tv/xtWaICe
+细节参考 【iPhone 11 移植3580毫安超容电芯，续航能有多离谱？】 https://www.bilibili.com/video/BV1vz42127VQ
 
 1.  电池处理
 2.  剪端电池耳极，注意不要短路了
