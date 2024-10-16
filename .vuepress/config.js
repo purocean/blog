@@ -22,6 +22,10 @@ module.exports = {
           text: 'Powered by VuePress | Copyright © 2019-present',
           link: '',
         },
+        {
+          text: '蜀ICP备2023032883号-1',
+          link: 'https://beian.miit.gov.cn/',
+        },
       ],
       contact: [
         {
