@@ -10,6 +10,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3.9.1
+        with:
+          node-version: 18.x
       - name: build
         run: export NODE_OPTIONS=--openssl-legacy-provider && yarn && yarn run dist
       - name: copy public
