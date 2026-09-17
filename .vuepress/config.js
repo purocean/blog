@@ -70,6 +70,7 @@ module.exports = {
   markdown: {
     lineNumbers: true,
     extendMarkdown: md => {
+      md.use(require('./markdown-math'))
       md.options.breaks = true
       md.options.linkify = true
     }

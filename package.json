@@ -9,6 +9,7 @@
     "@vuepress/plugin-back-to-top": "^1.9.7",
     "@vuepress/plugin-medium-zoom": "^1.9.7",
     "@vuepress/theme-blog": "^2.3.3",
+    "katex": "^0.16.21",
     "vuepress": "^1.9.7",
     "vuepress-plugin-html-applet": "^0.0.4",
     "vuepress-plugin-img-lazy": "^1.0.4"
