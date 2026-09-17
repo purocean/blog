@@ -62,7 +62,7 @@ $$
 
 当 $v=0.6c$ 时，内部演化倍率为 $0.8$，周期则扩大为 $1.25$ 倍。
 
-![横向传播路径与时间膨胀](./FILES/2026-09-17-relativity-dynamic-structure.md/01_横向传播与时间膨胀.png)
+![横向传播路径与时间膨胀](./FILES/2026-09-17-relativity-dynamic-structure.md/01-transverse-light-clock.png)
 
 图中的关键不是“运动消耗了某种能量”，而是：传播速度上限不变时，整体运动使完成一个内部周期所需的传播路径变长。
 
@@ -116,7 +116,7 @@ $$
 
 这就是长度收缩。
 
-![纵向传播与长度收缩](./FILES/2026-09-17-relativity-dynamic-structure.md/02_纵向传播与长度收缩.png)
+![纵向传播与长度收缩](./FILES/2026-09-17-relativity-dynamic-structure.md/02-length-contraction.png)
 
 因此，在动态结构图像中，时间膨胀与长度收缩可以被理解为同一稳定性要求的两个侧面：周期关系发生变化时，纵向平衡尺度也必须相应改变。
 
@@ -171,7 +171,7 @@ c_{\rm measured}
 =c
 $$
 
-![0.6c 飞船上的往返测光](./FILES/2026-09-17-relativity-dynamic-structure.md/03_往返测光与光速不变.png)
+![0.6c 飞船上的往返测光](./FILES/2026-09-17-relativity-dynamic-structure.md/03-round-trip-light-speed.png)
 
 这个例子说明：光速不变并不能只靠“钟变慢”解释。时间尺度与空间尺度必须按照同一套洛伦兹规律共同变化。
 
@@ -251,7 +251,7 @@ $$
 \tau_{\rm ship}=8\text{ 年}
 $$
 
-![双生子世界线](./FILES/2026-09-17-relativity-dynamic-structure.md/05_世界线与固有时间.png)
+![双生子世界线](./FILES/2026-09-17-relativity-dynamic-structure.md/05-worldlines-proper-time.png)
 
 钟差不是光传播造成的视觉错觉，而是两条世界线具有不同的固有时间长度。
 
@@ -300,7 +300,7 @@ $$
 2+8=10\text{ 年}
 $$
 
-![双生子多普勒阶段](./FILES/2026-09-17-relativity-dynamic-structure.md/04_双生子实验多普勒阶段.png)
+![双生子多普勒阶段](./FILES/2026-09-17-relativity-dynamic-structure.md/04-twin-doppler-effect.png)
 
 因此双方看到的多普勒倍率是对称的。真正不对称的是双方分别经历红移阶段和蓝移阶段的持续时间。
 
@@ -347,7 +347,7 @@ $$
 
 自由落入足够大黑洞的观察者，在穿过事件视界时局部物理仍然正常。事件视界真正特殊之处，在于因果结构：一旦进入视界，任何未来指向的光信号或物质运动都不能重新到达外部。
 
-![黑洞附近光锥示意](./FILES/2026-09-17-relativity-dynamic-structure.md/06_黑洞附近的因果结构.png)
+![黑洞附近光锥示意](./FILES/2026-09-17-relativity-dynamic-structure.md/06-black-hole-causal-structure.png)
 
 图中的“光锥倾斜”是一种直觉表示。越靠近黑洞，能够通向未来的方向越偏向内部；进入事件视界后，所有未来因果方向都无法重新指向外部。
 
